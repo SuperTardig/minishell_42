@@ -12,4 +12,16 @@ The mandatory requirement for this project are as followed:
   - Handling of $? which expand to the exit status of the last command
   - Handling of "**ctrl-C**", "**ctrl-D**" and "**ctrl-\**". They should behave like in **bash**
   - Impement the following **builtins**:
-    1. **echo** with the flag -n
+    - **echo** with the flag -n
+    - **cd** with relative or absolute path
+    - **pwd**
+    - **export**
+    - **unset**
+    - **env**
+    - **exit**
+## Usage
+To use this program, you have to:
+1. Clone this repository
+2. Go to the root of the repository and use `make`
+3. Run `./minishell`
+4. Use it like you would **bash**
